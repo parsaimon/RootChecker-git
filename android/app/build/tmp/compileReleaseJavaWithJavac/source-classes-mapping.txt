@@ -1,0 +1,9 @@
+com/rootchecker/MainApplication.java
+ com.rootchecker.MainApplication
+ com.rootchecker.MainApplication$1
+com/rootchecker/BuildConfig.java
+ com.rootchecker.BuildConfig
+com/rootchecker/MainActivity.java
+ com.rootchecker.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

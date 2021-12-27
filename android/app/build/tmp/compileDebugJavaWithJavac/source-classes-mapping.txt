@@ -1,0 +1,14 @@
+com/rootchecker/MainApplication.java
+ com.rootchecker.MainApplication
+ com.rootchecker.MainApplication$1
+com/rootchecker/ReactNativeFlipper.java
+ com.rootchecker.ReactNativeFlipper
+ com.rootchecker.ReactNativeFlipper$1
+ com.rootchecker.ReactNativeFlipper$2
+ com.rootchecker.ReactNativeFlipper$2$1
+com/rootchecker/BuildConfig.java
+ com.rootchecker.BuildConfig
+com/rootchecker/MainActivity.java
+ com.rootchecker.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
