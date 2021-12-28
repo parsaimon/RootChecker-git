@@ -48,6 +48,8 @@ const WallpaperHome = () => {
   }, [getData]);
 
   async function getWallpapers(pn) {
+    var temp=list;
+    var arr=[];
     await axios
       .get("https://picsum.photos/v2/list?page=" + pn + "&limit=" + limit, {
         timeout: 10000,
@@ -55,7 +57,15 @@ const WallpaperHome = () => {
       .then(function (response) {
         console.log("wallpaper", response.data);
         //Toast.showWithGravity("Data fetched successfully!",Toast.SHORT,Toast.BOTTOM);
-        setList(list ? [...list, response.data] : response.data);
+        //setList(response.data);
+        arr=response.data;
+        if(temp.length>0){
+          temp.map(function(item){
+            arr.push(item)
+          });
+        }
+        setList(arr);
+
       })
       .catch(function (error) {
         console.log(error);
@@ -115,6 +125,7 @@ const WallpaperHome = () => {
                       color={"#fff"}
                       style={{ alignSelf: "center" }}
                     />
+                    {/* <Text>{item.author}</Text> */}
                   </View>
                   <Image
                     source={{ uri: item.download_url }}
