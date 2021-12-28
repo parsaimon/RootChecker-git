@@ -13,6 +13,7 @@ import {
   import { NavigationContainer } from "@react-navigation/native";
 
   import Homepage from "./screens/Homepage/index.js";
+  import WallpaperHome from "./screens/WallpaperHome/index.js";
 
   const Stack=createStackNavigator();
   const config = {
@@ -35,10 +36,20 @@ import {
 
     return(
         <NavigationContainer>
-            <Stack.Navigator initialRouteName={"Homepage"} screenOptions={{headerShown:false}}>
+            <Stack.Navigator initialRouteName={"WallpaperHome"} screenOptions={{headerShown:false}}>
             <Stack.Screen
             name="Homepage"
             component={Homepage}
+            options={{
+                transitionSpec:{
+                    open:config,
+                    close:config
+                }
+            }}
+            />
+             <Stack.Screen
+            name="WallpaperHome"
+            component={WallpaperHome}
             options={{
                 transitionSpec:{
                     open:config,

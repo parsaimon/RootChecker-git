@@ -14,55 +14,58 @@
 12    <uses-permission android:name="android.permission.INTERNET" />
 12-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:4:5-67
 12-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:4:22-64
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\abc\.gradle\caches\transforms-3\2f5725507f1929c6ddf8255f0bef77bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\abc\.gradle\caches\transforms-3\2f5725507f1929c6ddf8255f0bef77bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:6:5-24:19
-16        android:name="com.rootchecker.MainApplication"
-16-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.6.0] C:\Users\abc\.gradle\caches\transforms-3\5efa136d6b7a2c594211658eacead3c1\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->E:\React Native\RootChecker\android\app\src\debug\AndroidManifest.xml:8:9-44
-25        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-25-->E:\React Native\RootChecker\android\app\src\debug\AndroidManifest.xml:11:9-86
-25-->E:\React Native\RootChecker\android\app\src\debug\AndroidManifest.xml:11:19-83
-26        <activity
-26-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:13:7-23:18
-27            android:name="com.rootchecker.MainActivity"
-27-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:14:9-37
-28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-28-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:16:9-86
-29            android:label="@string/app_name"
-29-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:15:9-41
-30            android:launchMode="singleTask"
-30-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:17:9-40
-31            android:windowSoftInputMode="adjustResize" >
-31-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:18:9-51
-32            <intent-filter>
-32-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:19:9-22:25
-33                <action android:name="android.intent.action.MAIN" />
-33-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:20:13-65
-33-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:20:21-62
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:21:13-73
-35-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:21:23-70
-36            </intent-filter>
-37        </activity>
-38    </application>
-39
-40</manifest>
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:5:5-65
+13-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:5:22-63
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.99.0] C:\Users\abc\.gradle\caches\transforms-3\2f5725507f1929c6ddf8255f0bef77bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.99.0] C:\Users\abc\.gradle\caches\transforms-3\2f5725507f1929c6ddf8255f0bef77bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+15
+16    <application
+16-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:7:5-25:19
+17        android:name="com.rootchecker.MainApplication"
+17-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:8:7-38
+18        android:allowBackup="false"
+18-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:12:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] C:\Users\abc\.gradle\caches\transforms-3\5efa136d6b7a2c594211658eacead3c1\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:10:7-41
+22        android:label="@string/app_name"
+22-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:9:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:11:7-52
+24        android:theme="@style/AppTheme"
+24-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:13:7-38
+25        android:usesCleartextTraffic="true" >
+25-->E:\React Native\RootChecker\android\app\src\debug\AndroidManifest.xml:8:9-44
+26        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+26-->E:\React Native\RootChecker\android\app\src\debug\AndroidManifest.xml:11:9-86
+26-->E:\React Native\RootChecker\android\app\src\debug\AndroidManifest.xml:11:19-83
+27        <activity
+27-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:14:7-24:18
+28            android:name="com.rootchecker.MainActivity"
+28-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:15:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+29-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:17:9-86
+30            android:label="@string/app_name"
+30-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:16:9-41
+31            android:launchMode="singleTask"
+31-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:18:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:19:9-51
+33            <intent-filter>
+33-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:20:9-23:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:21:13-65
+34-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:21:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:22:13-73
+36-->E:\React Native\RootChecker\android\app\src\main\AndroidManifest.xml:22:23-70
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>

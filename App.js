@@ -41,7 +41,7 @@ const Splash = () => {
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text style={{fontSize: responsiveFontSize(4.8), fontWeight: 'bold',color:"#808080"}}>
-        Root Checker
+        Wallpaper
       </Text>
     </View>
   );
