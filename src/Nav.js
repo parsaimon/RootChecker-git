@@ -14,6 +14,7 @@ import {
 
   import Homepage from "./screens/Homepage/index.js";
   import WallpaperHome from "./screens/WallpaperHome/index.js";
+  import ViewImage from "./screens/ViewImage/index.js";
 
   const Stack=createStackNavigator();
   const config = {
@@ -50,6 +51,16 @@ import {
              <Stack.Screen
             name="WallpaperHome"
             component={WallpaperHome}
+            options={{
+                transitionSpec:{
+                    open:config,
+                    close:config
+                }
+            }}
+            />
+             <Stack.Screen
+            name="ViewImage"
+            component={ViewImage}
             options={{
                 transitionSpec:{
                     open:config,

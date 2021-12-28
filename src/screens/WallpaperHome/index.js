@@ -61,7 +61,7 @@ const WallpaperHome = () => {
         arr=response.data;
         if(temp.length>0){
           temp.map(function(item){
-            arr.push(item)
+            arr.unshift(item)
           });
         }
         setList(arr);
@@ -103,6 +103,7 @@ const WallpaperHome = () => {
             renderItem={({ item, index }) => {
               return (
                 <TouchableOpacity
+                onPress={()=>{navigation.navigate("ViewImage",{data:item})}}
                   style={{
                     height: responsiveHeight(38),
                     width: "98%",
